@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-size: 2.4vh;
 }
 
 :root {
@@ -20,6 +21,7 @@ body {
   font-family: "Dancing Script", cursive;
   color: rgba(252, 222, 233, 0.952);
   flex-direction: column;
+  width: 100vw;
 }
 
 .box {
@@ -54,7 +56,7 @@ h1 {
   letter-spacing: 0.2rem;
   opacity: 0;
   transition: all 2s ease-in-out;
-  line-height: 4rem;
+  line-height: 2rem;
   color: var(--ball);
   text-align: center;
   width: clamp(35ch, 20%, 75ch);
@@ -88,5 +90,23 @@ h1 {
   100% {
     top: 0rem;
     left: 8rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: 1.4vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  * {
+    font-size: 1vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    font-size: 0.7vh;
   }
 }
