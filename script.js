@@ -8,6 +8,7 @@ const themes = [
   ],
   ["#f0f696", "#96f7d2", "#fbfdc7"],
   ["#364f6b", "#324761", "#ff6262ee"],
+  ["#b4da55", "#92b146", "#f42069"],
 ];
 let number = 0;
 button.addEventListener("click", () => {
