@@ -18,4 +18,5 @@ button.addEventListener("click", () => {
   document.documentElement.style.setProperty("--primary", themes[number][0]);
   document.documentElement.style.setProperty("--secondary", themes[number][1]);
   document.documentElement.style.setProperty("--ball", themes[number][2]);
+  document.querySelector('meta[name="theme-color"]').setAttribute('content', themes[number][0]);
 });
