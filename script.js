@@ -15,7 +15,6 @@ button.addEventListener("click", () => {
   visible[0].classList.toggle("show");
   number++;
   number = number == themes.length ? number % themes.length : number;
-  console.log(number);
   document.documentElement.style.setProperty("--primary", themes[number][0]);
   document.documentElement.style.setProperty("--secondary", themes[number][1]);
   document.documentElement.style.setProperty("--ball", themes[number][2]);
