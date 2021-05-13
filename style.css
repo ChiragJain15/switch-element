@@ -59,7 +59,7 @@ h1 {
   line-height: 2rem;
   color: var(--ball);
   text-align: center;
-  width: clamp(35ch, 20%, 75ch);
+  width: clamp(15ch, 20%, 75ch);
 }
 
 .show {
