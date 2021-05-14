@@ -52,6 +52,13 @@ body {
   left: 8rem;
 }
 
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   padding: 2rem;
   letter-spacing: 0.2rem;
